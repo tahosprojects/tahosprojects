@@ -26,7 +26,8 @@ Defense-in-depth plan across all eight MNSP milestones: segmentation, access con
 
 ## Currently Building
 
-**Detection Engineering Lab**, extending the SOC lab with Sigma rules, SPL detections, ATT&CK coverage mapping, and AWS CloudTrail/GuardDuty log ingestion into Splunk.
+**[Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)**, extending the SOC lab with Sigma rules, SPL detections, ATT&CK coverage mapping, and AWS CloudTrail/GuardDuty log ingestion into Splunk.
+
 
 ## Skills
 
