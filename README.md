@@ -22,10 +22,6 @@ MSSP-style assessment of a 30-endpoint Windows/macOS environment using ConnectSe
 ### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/nsa-manageable-network-security-plan)
 Defense-in-depth plan across all eight MNSP milestones: segmentation, access control, patching, baselines, monitoring, and IR procedures aligned with NIST SP 800-41, 800-34, and 800-61.
 
----
-
-## Currently Building
-
 **[Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)**, extending the SOC lab with Sigma rules, SPL detections, ATT&CK coverage mapping, and AWS CloudTrail/GuardDuty log ingestion into Splunk.
 
 
