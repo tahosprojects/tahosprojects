@@ -10,7 +10,7 @@ I build hands-on security labs focused on SOC operations and detection engineeri
 
 ## Projects
 
-### 🚀 [Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)
+### 🚀 [Hybrid-Detection-Engineering-Lab](https://github.com/tahosprojects/detection-engineering-lab)
 Cloud-native detection and automation. Built an end-to-end AWS detection pipeline using Terraform for IaC, Stratus Red Team for adversary emulation, and custom Sigma/SPL logic. Automates triage with a Python-based threat intelligence enrichment script.
 
 ### 🛡️ [SOC Detection Home Lab](https://github.com/tahosprojects/soc-home-lab)
