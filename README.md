@@ -19,7 +19,7 @@ Live forensics on AWS EC2 with Velociraptor (VQL) and Splunk. Hunted PowerShell 
 ### 📊 [Enterprise Vulnerability Management & Triage](https://github.com/tahosprojects/enterprise-vulnerability-management-triage)
 MSSP-style assessment of a 30-endpoint Windows/macOS environment using ConnectSecure. Prioritized with EPSS and CISA KEV, flagged EOL infrastructure and ransomware-relevant exposures.
 
-### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/nsa-manageable-network-security-plan)
+### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/NSA-Manageable-Network-Security-Plan-MNSP)
 Defense-in-depth plan across all eight MNSP milestones: segmentation, access control, patching, baselines, monitoring, and IR procedures aligned with NIST SP 800-41, 800-34, and 800-61.
 
 **[Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)**, extending the SOC lab with Sigma rules, SPL detections, ATT&CK coverage mapping, and AWS CloudTrail/GuardDuty log ingestion into Splunk.
