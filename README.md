@@ -3,6 +3,8 @@ Cybersecurity senior at the University of South Florida | CompTIA Security+ | Ta
 I build hands-on security labs focused on SOC operations and detection engineering: cloud-native pipelines, endpoint forensics, adversary emulation, and vulnerability management.
 📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmidabtahee@usf.edu](mailto:tahmidabtahee@usf.edu)
 ## Projects
+### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE) `in progress`
+Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
 ### 🍯 [Honeypot-TI-LLM-Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
 Live threat intelligence and automated triage. Deployed a public-facing T-Pot honeypot suite and Canarytokens deception layer, centralized real attacker telemetry in a self-hosted Splunk SIEM, and automated MITRE ATT&CK classification with a Python pipeline powered by the Anthropic API.
 ### 🚀 [Hybrid-Detection-Engineering-Lab](https://github.com/tahosprojects/detection-engineering-lab)
@@ -15,5 +17,9 @@ Live forensics on AWS EC2. Hunted PowerShell script block execution and process 
 Risk-based triage of a 30-endpoint environment. Prioritized vulnerabilities using EPSS and CISA KEV frameworks to address EOL software and high-risk exposures.
 ### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/NSA-Manageable-Network-Security-Plan-MNSP)
 Defense-in-depth plan across all eight MNSP milestones: segmentation, access control, patching, baselines, monitoring, and IR procedures aligned with NIST SP 800-41, 800-34, and 800-61.
+
 ## Skills
-`Splunk (SPL)` `Sigma` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
+`Splunk (SPL)` `Sigma` `YARA` `Ghidra` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
+
+### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE) `in progress`
+Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
