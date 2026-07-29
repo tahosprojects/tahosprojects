@@ -3,7 +3,7 @@ Cybersecurity senior at the University of South Florida | CompTIA Security+ | Ta
 I build hands-on security labs focused on SOC operations and detection engineering: cloud-native pipelines, endpoint forensics, adversary emulation, and vulnerability management.
 📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmidabtahee@usf.edu](mailto:tahmidabtahee@usf.edu)
 ## Projects
-### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE) `in progress`
+### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE)
 Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
 ### 🍯 [Honeypot-TI-LLM-Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
 Live threat intelligence and automated triage. Deployed a public-facing T-Pot honeypot suite and Canarytokens deception layer, centralized real attacker telemetry in a self-hosted Splunk SIEM, and automated MITRE ATT&CK classification with a Python pipeline powered by the Anthropic API.
