@@ -21,5 +21,3 @@ Defense-in-depth plan across all eight MNSP milestones: segmentation, access con
 ## Skills
 `Splunk (SPL)` `Sigma` `YARA` `Ghidra` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
 
-### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE) `in progress`
-Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
