@@ -26,5 +26,5 @@ Defense-in-depth plan across all eight MNSP milestones: segmentation, access con
 ### 🔐 Cloud Identity & Zero Trust Architecture
 Building a multi-account AWS Organization with least-privilege IAM, SCPs, cross-account roles, and identity federation (SSO/SAML/OIDC). Using VPC Flow Logs with Athena for serverless traffic analysis, GuardDuty for threat detection, and IAM Access Analyzer to surface excess permissions, evaluated against the NIST 800-207 / CISA Zero Trust Maturity Model for a formal maturity assessment.
 
-### 📡 Network Traffic Analysis & Detection Engineering
-Packet-level analysis and detection engineering with Wireshark. Capturing and analyzing live attack traffic (scanning, ARP spoofing, DNS tunneling, C2 beaconing), then building Zeek/Suricata detection rules and a SOC-style capstone incident report.
+📡 packet-detection-lab
+Packet-level analysis and detection engineering with Wireshark. Capturing and analyzing live attack traffic (ARP spoofing, DNS tunneling, C2 beaconing), then building Zeek/Suricata detection rules and a SOC-style capstone incident report.
