@@ -5,9 +5,9 @@ I build hands-on security labs focused on SOC operations and detection engineeri
 ## Projects
 ### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE)
 Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
-### 🍯 [Honeypot-TI-LLM-Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
+### 🍯 [Honeypot TI LLM Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
 Live threat intelligence and automated triage. Deployed a public-facing T-Pot honeypot suite and Canarytokens deception layer, centralized real attacker telemetry in a self-hosted Splunk SIEM, and automated MITRE ATT&CK classification with a Python pipeline powered by the Anthropic API.
-### 🚀 [Hybrid-Detection-Engineering-Lab](https://github.com/tahosprojects/detection-engineering-lab)
+### 🚀 [Hybrid Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)
 Cloud-native detection and automation. Built an end-to-end AWS detection pipeline using Terraform for IaC, Stratus Red Team for adversary emulation, and custom Sigma/SPL logic. Automates triage with a Python-based threat intelligence enrichment script.
 ### 🛡️ [SOC Detection Home Lab](https://github.com/tahosprojects/soc-home-lab)
 4-VM enterprise lab: Windows Server 2022 AD domain, Splunk SIEM, Sysmon telemetry, Kali attacker. Executed Atomic Red Team techniques, wrote SPL detections, and published a formal incident report (INC-2026-001) mapped to MITRE ATT&CK and NIST SP 800-61.
