@@ -23,8 +23,8 @@ Defense-in-depth plan across all eight MNSP milestones: segmentation, access con
 
 ## Currently Working On
 
-### 🔐 Cloud Identity & Zero Trust Architecture
-Building a multi-account AWS Organization with least-privilege IAM, SCPs, cross-account roles, and identity federation (SSO/SAML/OIDC). Using VPC Flow Logs with Athena for serverless traffic analysis, GuardDuty for threat detection, and IAM Access Analyzer to surface excess permissions, evaluated against the NIST 800-207 / CISA Zero Trust Maturity Model for a formal maturity assessment.
+### 🔐 Cloud Identity & Zero Trust Architecture (AWS)
+Multi-account AWS Organization with least-privilege IAM, SCPs, cross-account roles, and identity federation via SSO/SAML/OIDC. VPC Flow Logs analyzed serverlessly with Athena, GuardDuty for threat detection, and IAM Access Analyzer to catch excess permissions. Includes a deliberate misconfiguration exercise (introduce and then detect/fix a real mistake) and a formal evaluation against NIST 800-207 and the CISA Zero Trust Maturity Model.
 
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
 Segmented OPNsense lab isolating an attacker and victim network. Captured and manually reverse-engineered ARP spoofing, DNS tunneling, and C2 beaconing at the packet level in Wireshark, then built Suricata detection rules enforced inline via OPNsense IPS, plus a TLS interception demo and a SOC-style capstone incident report mapped to MITRE ATT&CK.
