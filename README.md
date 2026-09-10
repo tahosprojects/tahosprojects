@@ -4,26 +4,26 @@ I build hands-on security labs focused on SOC operations and detection engineeri
 📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmidabtahee@usf.edu](mailto:tahmidabtahee@usf.edu)
 ## Projects
 ### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE)
-Malware analysis and detection engineering lab in an isolated VirtualBox environment. Static analysis in Ghidra, dynamic analysis with Sysmon/x64dbg/SystemInformer/FakeNet-NG, and a Splunk detection pipeline — analyzing live njRAT and GhostRAT samples from MalwareBazaar end to end, from triage to custom YARA and SPL detections.
+Static and dynamic analysis of live njRAT and GhostRAT samples in an isolated VirtualBox lab. Ghidra/dnSpy for reverse engineering, Sysmon/SystemInformer/FakeNet-NG for detonation, Splunk for telemetry, custom YARA for detection.
 ### 🍯 [Honeypot TI LLM Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
-Live threat intelligence and automated triage. Deployed a public-facing T-Pot honeypot suite and Canarytokens deception layer, centralized real attacker telemetry in a self-hosted Splunk SIEM, and automated MITRE ATT&CK classification with a Python pipeline powered by the Anthropic API.
+Public-facing T-Pot honeypot with a Canarytokens deception layer, centralizing real attacker telemetry in a self-hosted Splunk SIEM. Python pipeline via the Anthropic API auto-classifies attacks to MITRE ATT&CK.
 ### 🚀 [Hybrid Detection Engineering Lab](https://github.com/tahosprojects/detection-engineering-lab)
-Cloud-native detection and automation. Built an end-to-end AWS detection pipeline using Terraform for IaC, Stratus Red Team for adversary emulation, and custom Sigma/SPL logic. Automates triage with a Python-based threat intelligence enrichment script.
+End-to-end AWS detection pipeline: Terraform for IaC, Stratus Red Team for adversary emulation, custom Sigma/SPL detections, Python-based threat intel enrichment for triage.
 ### 🛡️ [SOC Detection Home Lab](https://github.com/tahosprojects/soc-home-lab)
-4-VM enterprise lab: Windows Server 2022 AD domain, Splunk SIEM, Sysmon telemetry, Kali attacker. Executed Atomic Red Team techniques, wrote SPL detections, and published a formal incident report (INC-2026-001) mapped to MITRE ATT&CK and NIST SP 800-61.
+4-VM AD environment with Splunk SIEM and Sysmon telemetry. Executed Atomic Red Team techniques, wrote SPL detections, published a formal incident report (INC-2026-001) mapped to MITRE ATT&CK and NIST SP 800-61.
 ### 🔍 [Endpoint Forensics & Threat Hunting](https://github.com/tahosprojects/endpoint-forensics-splunk-threat-hunting)
-Live forensics on AWS EC2. Hunted PowerShell script block execution and process creation events using Velociraptor (VQL) and Splunk, analyzing indicators across Windows Security logs.
+Live forensics on AWS EC2, hunting PowerShell and process-creation events with Velociraptor (VQL) and Splunk.
 ### 📊 [Enterprise Vulnerability Management](https://github.com/tahosprojects/enterprise-vulnerability-management-triage)
-Risk-based triage of a 30-endpoint environment. Prioritized vulnerabilities using EPSS and CISA KEV frameworks to address EOL software and high-risk exposures.
+Risk-based triage across a 30-endpoint environment using EPSS and CISA KEV to prioritize EOL software and high-risk exposures.
 ### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/NSA-Manageable-Network-Security-Plan-MNSP)
 Defense-in-depth plan across all eight MNSP milestones: segmentation, access control, patching, baselines, monitoring, and IR procedures aligned with NIST SP 800-41, 800-34, and 800-61.
 
 ## Skills
-`Splunk (SPL)` `Sigma` `YARA` `Ghidra` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
+`Splunk (SPL)` `Sigma` `YARA` `Ghidra` `dnSpy` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
 
 ## Currently Working On
 
-### 🔐 Cloud Identity & Zero Trust Architecture (AWS)
+### 🔐 [Cloud Identity & Zero Trust Architecture (AWS)](https://github.com/tahosprojects/Cloud-Identity-Zero-Trust-Architecture-AWS)
 Multi-account AWS Organization with least-privilege IAM, SCPs, cross-account roles, and identity federation via SSO/SAML/OIDC. VPC Flow Logs analyzed serverlessly with Athena, GuardDuty for threat detection, and IAM Access Analyzer to catch excess permissions. Includes a deliberate misconfiguration exercise (introduce and then detect/fix a real mistake) and a formal evaluation against NIST 800-207 and the CISA Zero Trust Maturity Model.
 
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
