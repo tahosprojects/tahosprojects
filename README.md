@@ -23,8 +23,7 @@ Defense-in-depth plan across all eight MNSP milestones: segmentation, access con
 
 ## Currently Working On
 
-### 🔐 [Cloud Identity & Zero Trust Architecture (AWS)](https://github.com/tahosprojects/Cloud-Identity-Zero-Trust-Architecture-AWS)
-Multi-account AWS Organization with least-privilege IAM, SCPs, cross-account roles, and identity federation via SSO/SAML/OIDC. VPC Flow Logs analyzed serverlessly with Athena, GuardDuty for threat detection, and IAM Access Analyzer to catch excess permissions. Includes a deliberate misconfiguration exercise (introduce and then detect/fix a real mistake) and a formal evaluation against NIST 800-207 and the CISA Zero Trust Maturity Model.
-
+### 🔐 [Cloud Identity & Zero Trust Architecture (Azure)](https://github.com/tahosprojects/Cloud-Identity-Zero-Trust-Architecture-Azure)
+Multi-subscription Azure environment under a single Entra ID tenant, using Management Groups and Azure Policy as org-wide guardrails, plus Azure RBAC for least-privilege access. Identity federation through Entra ID enterprise app registrations (SAML/OIDC), enforced with Conditional Access and Privileged Identity Management for just-in-time admin access. NSG Flow Logs and Traffic Analytics for network visibility, Microsoft Defender for Cloud for threat detection, and Entra ID Access Reviews to catch excess permissions. Includes a deliberate misconfiguration exercise (introduce and then detect/fix a real mistake) and a formal evaluation against NIST 800-207 and the CISA Zero Trust Maturity Model.
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
 Segmented OPNsense lab isolating an attacker and victim network. Captured and manually reverse-engineered ARP spoofing, DNS tunneling, and C2 beaconing at the packet level in Wireshark, then built Suricata detection rules enforced inline via OPNsense IPS, plus a TLS interception demo and a SOC-style capstone incident report mapped to MITRE ATT&CK.
