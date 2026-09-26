@@ -4,7 +4,7 @@ I build hands-on security labs focused on SOC operations and detection engineeri
 📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmidabtahee@usf.edu](mailto:tahmidabtahee@usf.edu)
 ## Projects
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
-Segmented OPNsense lab isolating an attacker and victim network. Captured and manually reverse-engineered ARP spoofing, DNS tunneling, and C2 beaconing at the packet level in Wireshark, then built standalone Suricata detection rules (alert-only/IDS), plus a TLS interception demo and a SOC-style capstone incident report mapped to MITRE ATT&CK.
+Segmented OPNsense lab: staged ARP spoofing, DNS tunneling, and C2 beaconing, analyzed at the packet level in Wireshark, detected with custom Suricata rules, plus a TLS interception demo.capstone incident report mapped to MITRE ATT&CK.
 ### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE)
 Static and dynamic analysis of live njRAT and GhostRAT samples in an isolated VirtualBox lab. Ghidra/dnSpy for reverse engineering, Sysmon/SystemInformer/FakeNet-NG for detonation, Splunk for telemetry, custom YARA for detection.
 ### 🍯 [Honeypot TI LLM Splunk](https://github.com/tahosprojects/Honeypot-TI-LLM-Splunk)
