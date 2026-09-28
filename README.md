@@ -1,7 +1,7 @@
 # Tahmid Abtahee
 Cybersecurity senior at the University of South Florida | CompTIA Security+ | Tampa, FL
 I build hands-on security labs focused on SOC operations and detection engineering: cloud-native pipelines, endpoint forensics, adversary emulation, and vulnerability management.
-📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmidabtahee@usf.edu](mailto:tahmidabtahee@usf.edu)
+📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmid.abt@gmail.com](mailto:tahmid.abt@gmail.com)
 ## Projects
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
 Segmented OPNsense lab isolating attacker and victim networks. Wireshark for byte-level analysis of ARP spoofing, DNS tunneling, and C2 beaconing, standalone Suricata for custom alert-only detection rules, mitmproxy for a TLS interception demo.
