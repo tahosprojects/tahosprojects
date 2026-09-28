@@ -17,8 +17,6 @@ End-to-end AWS detection pipeline: Terraform for IaC, Stratus Red Team for adver
 Live forensics on AWS EC2, hunting PowerShell and process-creation events with Velociraptor (VQL) and Splunk.
 ### 📊 [Enterprise Vulnerability Management](https://github.com/tahosprojects/enterprise-vulnerability-management-triage)
 Risk-based triage across a 30-endpoint environment using EPSS and CISA KEV to prioritize EOL software and high-risk exposures.
-### 🌐 [NSA Manageable Network Security Plan](https://github.com/tahosprojects/NSA-Manageable-Network-Security-Plan-MNSP)
-Defense-in-depth plan across all eight MNSP milestones: segmentation, access control, patching, baselines, monitoring, and IR procedures aligned with NIST SP 800-41, 800-34, and 800-61.
 
 ## Skills
 `Splunk (SPL)` `Sigma` `YARA` `Ghidra` `dnSpy` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
