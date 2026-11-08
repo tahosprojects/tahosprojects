@@ -5,6 +5,8 @@ I identify security risks, prioritize them, and build the plan to reduce them. M
 
 📌 [LinkedIn](https://www.linkedin.com/in/tahmidabtahee/) · [tahmid.abt@gmail.com](mailto:tahmid.abt@gmail.com)
 ## Projects
+### 🔐 [Cloud Identity & Zero Trust Architecture (Azure)](https://github.com/tahosprojects/Cloud-Identity-Zero-Trust-Architecture-Azure)
+Azure and Entra ID lab with management groups, Azure Policy, and scoped RBAC. SAML/OIDC federation, Conditional Access, and PIM tested hands-on, with a Bicep policy deployed by GitHub Actions via OIDC federation, no stored secret. Scored against NIST SP 800-207 and the CISA Zero Trust Maturity Model.
 ### 📡 [Packet Detection Lab](https://github.com/tahosprojects/Packet-Detection-Lab/)
 Segmented OPNsense lab isolating attacker and victim networks. Wireshark for byte-level analysis of ARP spoofing, DNS tunneling, and C2 beaconing, standalone Suricata for custom alert-only detection rules, mitmproxy for a TLS interception demo.
 ### 🦠 [Malware RE](https://github.com/tahosprojects/Malware-RE)
@@ -21,9 +23,4 @@ Live forensics on AWS EC2, hunting PowerShell and process-creation events with V
 Risk-based triage across a 30-endpoint environment using EPSS and CISA KEV to prioritize EOL software and high-risk exposures.
 
 ## Skills
-`Splunk (SPL)` `Sigma` `YARA` `Ghidra` `dnSpy` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
-
-## Currently Working On
-
-### 🔐 [Cloud Identity & Zero Trust Architecture (Azure)](https://github.com/tahosprojects/Cloud-Identity-Zero-Trust-Architecture-Azure)
-Multi-subscription Azure environment under one Entra ID tenant, secured with Management Groups, Azure Policy, and least-privilege RBAC. Identity federation via Entra ID app registrations (SAML/OIDC), enforced with Conditional Access and PIM for just-in-time admin access. NSG Flow Logs, Defender for Cloud, and Access Reviews provide visibility and catch excess permissions. Includes a deliberate misconfiguration exercise and a formal evaluation against NIST 800-207 and the CISA Zero Trust Maturity Model.
+`Splunk (SPL)` `Sigma` `YARA` `Ghidra` `dnSpy` `Sysmon` `Velociraptor (VQL)` `Wireshark` `Nmap` `Atomic Red Team` `Stratus Red Team` `Terraform` `Bicep` `GitHub Actions` `Azure` `Entra ID` `Conditional Access` `MITRE ATT&CK` `Active Directory` `AWS` `Python` `Bash` `T-Pot` `Canarytokens` `Docker`
